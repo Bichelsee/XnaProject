@@ -78,6 +78,7 @@ namespace XnaProjectMapEditor
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape)) this.Exit();
             cursor.Update(Mouse.GetState());
 
             base.Update(gameTime);
