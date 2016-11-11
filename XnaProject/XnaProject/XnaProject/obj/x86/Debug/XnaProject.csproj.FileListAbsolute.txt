@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\XnaProject.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\XnaProject.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\obj\x86\Debug\XnaProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\obj\x86\Debug\XnaProject.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\obj\x86\Debug\XnaProject.pdb
