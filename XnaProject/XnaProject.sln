@@ -5,9 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XnaProject", "XnaProject\XnaProject\XnaProject.csproj", "{0896AEDB-9B98-44DF-A043-D2F897741FF5}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XnaProjectContent", "XnaProject\XnaProjectContent\XnaProjectContent.contentproj", "{238B031F-9B31-434F-BCAB-AA956ACDD1B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XnaProjectContent", "XnaProject\XnaProjectContent\XnaProjectContent.contentproj", "{238B031F-9B31-434F-BCAB-AA956ACDD1B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSamples", "CodeSamples\CodeSamples.csproj", "{CDA97784-B4D7-480C-A12F-9601E13709BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSimulator", "TreeSimulator\TreeSimulator.csproj", "{6756E5F0-87CA-47A0-976C-56E167A955EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,14 @@ Global
 		{CDA97784-B4D7-480C-A12F-9601E13709BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CDA97784-B4D7-480C-A12F-9601E13709BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{CDA97784-B4D7-480C-A12F-9601E13709BF}.Release|x86.Build.0 = Release|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{6756E5F0-87CA-47A0-976C-56E167A955EE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
