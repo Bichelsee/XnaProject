@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CodeSamples
 {
     /// <summary>
-    /// Öffentliche Klasse Ball
+    /// Öffentliche Klasse Ball.
     /// </summary>
     public class Ball
     {
