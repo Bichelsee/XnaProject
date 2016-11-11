@@ -83,6 +83,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\XnaProjectLibrary\XnaProjectLibrary.csproj">
+      <Project>{44d1bab7-f1fe-4770-8fce-6caa0f554471}</Project>
+      <Name>XnaProjectLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XnaProjectContent\XnaProjectContent.contentproj">
       <Name>XnaProjectContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>

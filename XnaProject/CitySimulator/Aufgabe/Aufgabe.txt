@@ -1,0 +1,9 @@
+﻿Allgemein: 
+
+Hier soll eine Simulation eines Dorfes entstehen.
+
+Werte: 
+
+1. Hausbedarf
+2. Gewerbebedarf
+3. 

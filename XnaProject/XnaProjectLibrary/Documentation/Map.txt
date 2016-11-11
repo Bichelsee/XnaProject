@@ -1,0 +1,5 @@
+﻿Kartengrösse: 11x11 Blöcke
+Blockgrösse: 40 Pixel
+
+Map besteht aus Bild: (4096x4096 Pixel) und aus einem File mit kommaseparierter Liste aus Blockinformationsnummern. 
+Samplemap liegt im Ordner bei.

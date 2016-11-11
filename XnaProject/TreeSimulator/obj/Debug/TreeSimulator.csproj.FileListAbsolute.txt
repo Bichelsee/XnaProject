@@ -4,3 +4,9 @@ C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\Tree
 C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\TreeSimulator\obj\Debug\TreeSimulator.csprojResolveAssemblyReference.cache
 C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\TreeSimulator\obj\Debug\TreeSimulator.exe
 C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\TreeSimulator\obj\Debug\TreeSimulator.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\TreeSimulator\bin\Debug\TreeSimulator.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\TreeSimulator\bin\Debug\TreeSimulator.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\TreeSimulator\bin\Debug\TreeSimulator.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\TreeSimulator\obj\Debug\TreeSimulator.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\TreeSimulator\obj\Debug\TreeSimulator.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\TreeSimulator\obj\Debug\TreeSimulator.pdb

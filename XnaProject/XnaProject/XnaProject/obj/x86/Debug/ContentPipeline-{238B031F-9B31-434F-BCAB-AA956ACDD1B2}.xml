@@ -8,15 +8,15 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProjectContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProjectContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\XnaProject\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2016-11-11T17:52:48.7305566+01:00</Value>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-11-11T17:19:37.7269519+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

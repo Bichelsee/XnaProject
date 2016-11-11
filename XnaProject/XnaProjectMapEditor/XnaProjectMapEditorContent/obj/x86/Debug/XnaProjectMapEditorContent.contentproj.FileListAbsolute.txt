@@ -1,0 +1,1 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditorContent\obj\x86\Debug\XnaProjectMapEditorContent.contentprojResolveAssemblyReference.cache
