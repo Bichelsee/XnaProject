@@ -12,18 +12,31 @@ using Microsoft.Xna.Framework.Media;
 namespace XnaProject
 {
     /// <summary>
-    /// This is the main type for your game
+    /// Game-Class
     /// </summary>
-    public class Game1 : Microsoft.Xna.Framework.Game
+    public class Main : Microsoft.Xna.Framework.Game
     {
+        #region Variables
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public Game1()
+        #endregion
+
+        #region Constructor
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        public Main()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
+
+        #endregion
+
+        #region Private Methods
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
@@ -87,5 +100,7 @@ namespace XnaProject
 
             base.Draw(gameTime);
         }
+
+        #endregion
     }
 }
