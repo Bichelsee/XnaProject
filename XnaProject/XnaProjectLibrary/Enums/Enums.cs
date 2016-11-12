@@ -5,6 +5,9 @@ using System.Text;
 
 namespace XnaProjectLibrary
 {
+    /// <summary>
+    /// Enumeration of types, a cursor can be.
+    /// </summary>
     public enum CursorType
     {
         Arrow = 0,
