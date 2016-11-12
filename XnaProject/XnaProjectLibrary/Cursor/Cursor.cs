@@ -17,6 +17,7 @@ namespace XnaProjectLibrary
     {
         Vector2 position = new Vector2(30f, 30f);
         Texture2D image;
+        CursorType type = CursorType.Arrow;
 
         public Cursor()
         {
@@ -39,6 +40,23 @@ namespace XnaProjectLibrary
         {
             position.X = state.X;
             position.Y = state.Y;
+        }
+
+        public void SetCursorType(CursorType cursorType, ContentManager Content)
+        {
+            type = cursorType;
+            if (cursorType == CursorType.Arrow)
+            {
+                image = Content.Load<Texture2D>("Cursors/CursorArrow");
+            }
+            else if (cursorType ==CursorType.Add)
+            {
+                image = Content.Load<Texture2D>("Cursors/CursorAdd");
+            }
+            else if (cursorType == CursorType.Remove)
+            {
+                image = Content.Load<Texture2D>("Cursors/CursorRemove");
+            }
         }
     }
 }

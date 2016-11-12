@@ -43,7 +43,7 @@ namespace XnaProjectMapEditor
         {
             graphics.PreferredBackBufferHeight = 1080;
             graphics.PreferredBackBufferWidth = 1920;
-            graphics.IsFullScreen = true;
+            graphics.IsFullScreen = false;
             graphics.ApplyChanges();
         }
 
@@ -79,6 +79,20 @@ namespace XnaProjectMapEditor
         protected override void Update(GameTime gameTime)
         {
             if (Keyboard.GetState().IsKeyDown(Keys.Escape)) this.Exit();
+
+            if (Keyboard.GetState().IsKeyDown(Keys.NumPad0))
+            {
+                cursor.SetCursorType(CursorType.Arrow, Content);
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad1))
+            {
+                cursor.SetCursorType(CursorType.Add, Content);
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad2))
+            {
+                cursor.SetCursorType(CursorType.Remove, Content);
+            }
+
             cursor.Update(Mouse.GetState());
 
             base.Update(gameTime);

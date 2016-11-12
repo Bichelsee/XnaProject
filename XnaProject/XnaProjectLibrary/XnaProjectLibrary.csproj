@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cursor\Cursor.cs" />
+    <Compile Include="Enums\Enums.cs" />
     <Compile Include="Map\Chunks\Tiles\Tile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

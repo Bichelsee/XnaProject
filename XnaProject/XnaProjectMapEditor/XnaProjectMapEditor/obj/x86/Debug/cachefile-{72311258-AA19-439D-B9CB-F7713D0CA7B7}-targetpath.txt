@@ -1,1 +1,3 @@
 Content\Cursors\CursorArrow.xnb
+Content\Cursors\CursorAdd.xnb
+Content\Cursors\CursorRemove.xnb

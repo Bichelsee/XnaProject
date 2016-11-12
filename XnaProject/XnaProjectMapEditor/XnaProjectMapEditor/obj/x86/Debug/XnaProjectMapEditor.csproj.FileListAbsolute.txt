@@ -17,3 +17,5 @@ C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProje
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\XnaProjectLibrary.dll
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\XnaProjectLibrary.pdb
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\Content\Cursors\CursorArrow.xnb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\Content\Cursors\CursorAdd.xnb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\Content\Cursors\CursorRemove.xnb

@@ -8,7 +8,25 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\Content\Cursors\CursorArrow.xnb</Output>
-      <Time>2016-11-11T23:38:34.3904147+01:00</Time>
+      <Time>2016-11-12T21:01:50.176421+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Cursors\CursorAdd.png</Source>
+      <Name>Cursors\CursorAdd</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\Content\Cursors\CursorAdd.xnb</Output>
+      <Time>2016-11-12T21:01:50.2184234+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Cursors\CursorRemove.png</Source>
+      <Name>Cursors\CursorRemove</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\XnaProjectMapEditor\XnaProjectMapEditor\bin\x86\Debug\Content\Cursors\CursorRemove.xnb</Output>
+      <Time>2016-11-12T21:01:50.1864215+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
