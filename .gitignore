@@ -21,6 +21,9 @@ $RECYCLE.BIN/
 .bin/
 .obj/
 .vs
+.exe
+.pdb
+.dll
 
 # =========================
 # Operating System Files
