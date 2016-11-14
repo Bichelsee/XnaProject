@@ -17,6 +17,11 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Solution and Project Files
+bin
+obj
+.vs
+
 # =========================
 # Operating System Files
 # =========================
