@@ -15,4 +15,3 @@ C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\Code
 C:\Users\Manuel\Documents\Visual Studio 2015\Projects\XnaProject\XnaProject\CodeSamples\obj\Debug\CodeSamples.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CodeSamples\bin\Debug\CodeSamples.exe
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CodeSamples\bin\Debug\CodeSamples.pdb
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CodeSamples\obj\Debug\CodeSamples.csprojResolveAssemblyReference.cache
