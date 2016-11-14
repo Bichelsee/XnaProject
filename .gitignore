@@ -18,12 +18,14 @@ $RECYCLE.BIN/
 *.lnk
 
 # Solution and Project Files
-.bin/
-.obj/
+bin/
+obj/
 .vs
 *.exe
 *.pdb
 *.dll
+*.cache
+*FileListAbsolute.txt
 
 # =========================
 # Operating System Files

@@ -1,8 +1,0 @@
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\bin\Debug\CitySimulator.exe.config
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\bin\Debug\CitySimulator.exe
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\bin\Debug\CitySimulator.pdb
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\obj\Debug\CitySimulator.Main.resources
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\obj\Debug\CitySimulator.Properties.Resources.resources
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\obj\Debug\CitySimulator.csproj.GenerateResource.Cache
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\obj\Debug\CitySimulator.exe
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\XnaProject\CitySimulator\obj\Debug\CitySimulator.pdb
