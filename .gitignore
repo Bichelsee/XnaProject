@@ -18,8 +18,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # Solution and Project Files
-bin
-obj
+bin/
+obj/
 .vs
 
 # =========================
