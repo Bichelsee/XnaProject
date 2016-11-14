@@ -99,7 +99,7 @@ namespace XnaProjectLibrary
         #region Methods
 
         /// <summary>
-        /// Initializes the map.
+        /// Initializes the map. 
         /// </summary>
         /// <param name="path">Path to map-folder.</param>
         private void Initialize(string path)
