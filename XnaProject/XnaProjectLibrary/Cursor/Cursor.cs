@@ -67,6 +67,17 @@ namespace XnaProjectLibrary
         }
 
         /// <summary>
+        /// Draws the cursor-info onto the screen
+        /// </summary>
+        /// <param name="spriteBatch"></param>
+        public void DrawInformations(SpriteBatch spriteBatch, SpriteFont spriteFont)
+        {
+            spriteBatch.Begin();
+            spriteBatch.DrawString(spriteFont, "x: " + position.X.ToString() + "  y: " + position.Y.ToString(), new Vector2(10, 10), Color.White);
+            spriteBatch.End();
+        }
+
+        /// <summary>
         /// Updates the cursor and it's properties
         /// </summary>
         /// <param name="state"></param>

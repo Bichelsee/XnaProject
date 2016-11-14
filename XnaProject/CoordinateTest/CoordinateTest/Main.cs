@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using XnaProjectLibrary;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
@@ -10,7 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
-namespace XnaProjectMapEditor
+namespace CoordinateTest
 {
     /// <summary>
     /// This is the main type for your game
@@ -19,8 +18,8 @@ namespace XnaProjectMapEditor
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        SpriteFont spriteFont;
-        Cursor cursor;
+        Texture2D sampleImage;
+        Vector2 sampleImageLocation = new Vector2(0, 0);
 
         public Main()
         {
@@ -36,7 +35,8 @@ namespace XnaProjectMapEditor
         /// </summary>
         protected override void Initialize()
         {
-            InitializeScreenProperties();
+            
+
             base.Initialize();
         }
 
@@ -46,11 +46,11 @@ namespace XnaProjectMapEditor
         /// </summary>
         protected override void LoadContent()
         {
-            cursor = new Cursor();
+            // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            spriteFont = Content.Load<SpriteFont>("Fonts/Standard");
-      
-            cursor.LoadContent(Content);     
+            sampleImage = Content.Load<Texture2D>("SampleMap");
+
+            // TODO: use this.Content to load your game content here
         }
 
         /// <summary>
@@ -59,7 +59,7 @@ namespace XnaProjectMapEditor
         /// </summary>
         protected override void UnloadContent()
         {
-
+            // TODO: Unload any non ContentManager content here
         }
 
         /// <summary>
@@ -69,8 +69,7 @@ namespace XnaProjectMapEditor
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            HandleMouse();
-            HandleKeyboard();
+
 
             base.Update(gameTime);
         }
@@ -81,48 +80,11 @@ namespace XnaProjectMapEditor
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            ClearScreen();
-            cursor.Draw(spriteBatch);
-            cursor.DrawInformations(spriteBatch, spriteFont);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
 
+            // TODO: Add your drawing code here
 
             base.Draw(gameTime);
-        }
-
-        private void ClearScreen()
-        {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-        }
-
-        private void InitializeScreenProperties()
-        {
-            graphics.PreferredBackBufferHeight = 600;
-            graphics.PreferredBackBufferWidth = 800;
-            graphics.IsFullScreen = false;
-            graphics.ApplyChanges();
-        }
-
-        private void HandleMouse()
-        {
-            cursor.Update(Mouse.GetState());
-        }
-
-        private void HandleKeyboard()
-        {
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape)) this.Exit();
-
-            if (Keyboard.GetState().IsKeyDown(Keys.NumPad0))
-            {
-                cursor.SetCursorType(CursorType.Arrow, Content);
-            }
-            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad1))
-            {
-                cursor.SetCursorType(CursorType.Add, Content);
-            }
-            else if (Keyboard.GetState().IsKeyDown(Keys.NumPad2))
-            {
-                cursor.SetCursorType(CursorType.Remove, Content);
-            }
         }
     }
 }
