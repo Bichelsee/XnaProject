@@ -24,6 +24,7 @@ namespace XnaProjectMapEditor
         SpriteFont spriteFont;
         Cursor cursor;
         SampleMap map;
+        Map testRealMap;
 
         #endregion
 
@@ -60,6 +61,7 @@ namespace XnaProjectMapEditor
         {
             cursor = new Cursor();
             map = new SampleMap();
+            //testRealMap = new Map("Maps/Map01", Content);
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
             spriteFont = Content.Load<SpriteFont>("Fonts/Standard");
@@ -98,6 +100,7 @@ namespace XnaProjectMapEditor
         {
             ClearScreen();
 
+            //testRealMap.Draw(spriteBatch);
             map.Draw(spriteBatch);
 
             cursor.Draw(spriteBatch);
@@ -124,8 +127,8 @@ namespace XnaProjectMapEditor
         /// </summary>
         private void InitializeScreenProperties()
         {
-            graphics.PreferredBackBufferHeight = 600;
-            graphics.PreferredBackBufferWidth = 800;
+            graphics.PreferredBackBufferHeight = 576;
+            graphics.PreferredBackBufferWidth = 704;
             graphics.IsFullScreen = false;
             graphics.ApplyChanges();
         }

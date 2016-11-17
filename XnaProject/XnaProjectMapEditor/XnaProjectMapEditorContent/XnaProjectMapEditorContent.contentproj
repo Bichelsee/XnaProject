@@ -48,9 +48,7 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Maps\Map01\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Compile Include="Samples\SampleMapSmall.jpg">
       <Name>SampleMapSmall</Name>
@@ -68,6 +66,29 @@
   <ItemGroup>
     <Compile Include="Samples\SampleMap4x4.jpg">
       <Name>SampleMap4x4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maps\Map01\Map01.map">
+      <Name>Map01</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maps\Map01\Chunks\Chunk01\Chunk01_dynamic.dynamic">
+      <Name>Chunk01_dynamic</Name>
+    </Content>
+    <Content Include="Maps\Map01\Chunks\Chunk01\Chunk01_sprite.sprite">
+      <Name>Chunk01_sprite</Name>
+    </Content>
+    <Content Include="Maps\Map01\Chunks\Chunk01\Chunk01_static.static">
+      <Name>Chunk01_static</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\Map01\Chunks\Chunk01\Chunk01_image.jpg">
+      <Name>Chunk01_image</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
