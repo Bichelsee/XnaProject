@@ -13,26 +13,38 @@ using Microsoft.Xna.Framework.Media;
 namespace XnaProjectMapEditor
 {
     /// <summary>
-    /// This is the main type for your game
+    /// This is the main class.
     /// </summary>
     public class Main : Microsoft.Xna.Framework.Game
     {
+        #region Variables
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         SpriteFont spriteFont;
         Cursor cursor;
+        SampleMap map;
 
+        #endregion
+
+        #region Constructors
+
+        /// <summary>
+        /// Creates an instance of the main game. 
+        /// </summary>
         public Main()
         {
+            // Setting important stuff like graphics adapters.
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
 
+        #endregion
+
+        #region Public Methods
+
         /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
+        /// This method will  be called before the game loop starts. 
         /// </summary>
         protected override void Initialize()
         {
@@ -47,10 +59,13 @@ namespace XnaProjectMapEditor
         protected override void LoadContent()
         {
             cursor = new Cursor();
+            map = new SampleMap();
+
             spriteBatch = new SpriteBatch(GraphicsDevice);
             spriteFont = Content.Load<SpriteFont>("Fonts/Standard");
       
-            cursor.LoadContent(Content);     
+            cursor.LoadContent(Content);
+            map.LoadContent(Content);
         }
 
         /// <summary>
@@ -82,6 +97,9 @@ namespace XnaProjectMapEditor
         protected override void Draw(GameTime gameTime)
         {
             ClearScreen();
+
+            map.Draw(spriteBatch);
+
             cursor.Draw(spriteBatch);
             cursor.DrawInformations(spriteBatch, spriteFont);
 
@@ -89,11 +107,21 @@ namespace XnaProjectMapEditor
             base.Draw(gameTime);
         }
 
+        #endregion
+
+        #region Private Methods
+
+        /// <summary>
+        /// Clears the screen to a blueish color.
+        /// </summary>
         private void ClearScreen()
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
         }
 
+        /// <summary>
+        /// Initializes the screen properties.
+        /// </summary>
         private void InitializeScreenProperties()
         {
             graphics.PreferredBackBufferHeight = 600;
@@ -102,15 +130,23 @@ namespace XnaProjectMapEditor
             graphics.ApplyChanges();
         }
 
+        /// <summary>
+        /// Handles the mouse.
+        /// </summary>
         private void HandleMouse()
         {
             cursor.Update(Mouse.GetState());
         }
 
+        /// <summary>
+        /// Handles all the keyboard inputs.
+        /// </summary>
         private void HandleKeyboard()
         {
+            // Exit?
             if (Keyboard.GetState().IsKeyDown(Keys.Escape)) this.Exit();
 
+            // Cursorchanges?
             if (Keyboard.GetState().IsKeyDown(Keys.NumPad0))
             {
                 cursor.SetCursorType(CursorType.Arrow, Content);
@@ -124,5 +160,7 @@ namespace XnaProjectMapEditor
                 cursor.SetCursorType(CursorType.Remove, Content);
             }
         }
+
+        #endregion
     }
 }

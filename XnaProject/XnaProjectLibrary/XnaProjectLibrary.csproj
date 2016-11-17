@@ -63,6 +63,7 @@
     <Compile Include="Map\Chunks\Tiles\Tile.cs" />
     <Compile Include="Map\Map.cs" />
     <Compile Include="Map\DynamicMap.cs" />
+    <Compile Include="Map\SampleMap.cs" />
     <Compile Include="Map\SpriteMap.cs" />
     <Compile Include="Map\StaticMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
