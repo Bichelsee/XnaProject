@@ -21,7 +21,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XnaProjectMapEditorContent"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateTest", "CoordinateTest\CoordinateTest\CoordinateTest.csproj", "{D49FE14A-33C6-4A8D-901E-CB87043DF04F}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "CoordinateTestContent", "CoordinateTest\CoordinateTestContent\CoordinateTestContent.contentproj", "{B48C0A2B-9A1F-40BA-A807-09D2E1A49986}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateTestContent", "CoordinateTest\CoordinateTestContent\CoordinateTestContent.contentproj", "{B48C0A2B-9A1F-40BA-A807-09D2E1A49986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{E5F873AB-708F-423A-9B41-7460FEEE1831}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Todo", "Todo", "{43AFF96E-243E-46F0-8EAC-7FFB5A752E3A}"
+	ProjectSection(SolutionItems) = preProject
+		Todo01.txt = Todo01.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MapEditor", "MapEditor", "{565A171E-59D6-4325-9B47-A42CBFDCC35D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XnaGame", "XnaGame", "{B62A766B-E6B7-4068-A738-9F48EC4356DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Todo", "Todo", "{126A7632-4621-4070-AB7A-E3288FE15172}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +45,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0896AEDB-9B98-44DF-A043-D2F897741FF5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0896AEDB-9B98-44DF-A043-D2F897741FF5}.Debug|Any CPU.Build.0 = Debug|x86
 		{0896AEDB-9B98-44DF-A043-D2F897741FF5}.Debug|x86.ActiveCfg = Debug|x86
 		{0896AEDB-9B98-44DF-A043-D2F897741FF5}.Debug|x86.Build.0 = Debug|x86
 		{0896AEDB-9B98-44DF-A043-D2F897741FF5}.Release|Any CPU.ActiveCfg = Release|x86
@@ -74,6 +88,7 @@ Global
 		{44D1BAB7-F1FE-4770-8FCE-6CAA0F554471}.Release|x86.ActiveCfg = Release|Any CPU
 		{44D1BAB7-F1FE-4770-8FCE-6CAA0F554471}.Release|x86.Build.0 = Release|Any CPU
 		{32C6938D-CF51-4457-8A35-1966B26C1DCB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{32C6938D-CF51-4457-8A35-1966B26C1DCB}.Debug|Any CPU.Build.0 = Debug|x86
 		{32C6938D-CF51-4457-8A35-1966B26C1DCB}.Debug|x86.ActiveCfg = Debug|x86
 		{32C6938D-CF51-4457-8A35-1966B26C1DCB}.Debug|x86.Build.0 = Debug|x86
 		{32C6938D-CF51-4457-8A35-1966B26C1DCB}.Release|Any CPU.ActiveCfg = Release|x86
@@ -84,6 +99,7 @@ Global
 		{72311258-AA19-439D-B9CB-F7713D0CA7B7}.Release|Any CPU.ActiveCfg = Release|x86
 		{72311258-AA19-439D-B9CB-F7713D0CA7B7}.Release|x86.ActiveCfg = Release|x86
 		{D49FE14A-33C6-4A8D-901E-CB87043DF04F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D49FE14A-33C6-4A8D-901E-CB87043DF04F}.Debug|Any CPU.Build.0 = Debug|x86
 		{D49FE14A-33C6-4A8D-901E-CB87043DF04F}.Debug|x86.ActiveCfg = Debug|x86
 		{D49FE14A-33C6-4A8D-901E-CB87043DF04F}.Debug|x86.Build.0 = Debug|x86
 		{D49FE14A-33C6-4A8D-901E-CB87043DF04F}.Release|Any CPU.ActiveCfg = Release|x86
@@ -96,5 +112,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43AFF96E-243E-46F0-8EAC-7FFB5A752E3A} = {565A171E-59D6-4325-9B47-A42CBFDCC35D}
+		{565A171E-59D6-4325-9B47-A42CBFDCC35D} = {E5F873AB-708F-423A-9B41-7460FEEE1831}
+		{B62A766B-E6B7-4068-A738-9F48EC4356DC} = {E5F873AB-708F-423A-9B41-7460FEEE1831}
+		{126A7632-4621-4070-AB7A-E3288FE15172} = {B62A766B-E6B7-4068-A738-9F48EC4356DC}
 	EndGlobalSection
 EndGlobal

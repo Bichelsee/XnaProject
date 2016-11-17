@@ -1,0 +1,81 @@
+////////////////////
+//   Aufgabe 01   //
+////////////////////
+
+Allgemein
+- Darstellung einer Beispielkarte (Ohne Daten) aufgrund Koordinaten.
+- Verschieben der Karte durch Drag mit Rechtsklick.
+- Verschieben der Karte durch Pfeiltasten.
+
+Infos:
+Neu werden die Koordinaten des Cursors oben links angezeigt.
+
+Ausführung Teil 1
+Vorbereitet wurde eine Klasse der Map. Dort sind Koordinaten (Vector2). Jene sind auf 0x0.
+Im Main.cs (Hauptklasse) wurde eine Map instanziert und die Map besitzt eine Updatefunktion, welcheaufgerufen wird.
+Im Main.cs gibt es eine Draw funktion, welche die Draw Funktion der Map aufruft. Hier wird die Map gezeichnet, an den 
+mitgegebenen Koordinaten. Die Aufgabe besteht darin, die Koordinaten zu ändern und herauszufinden, was die Koordinaten bedeuten.
+
+Fragen:
+- Werden beispielsweise Koordinaten 5x5 mitgegeben, wo wird die Karte gezeichnet?
+- Welche Position innerhalb der Karte wird an diese Koordinaten gezeichnet (Linke Ecke? Mitte? weeees?)?
+
+
+
+
+
+Ausführung Teil 2
+Im zweiten Teil muss im Main.cs in der Update Funktion überprüft werden, wann ein Drag Ereignis vorliegt.
+Hierzu wird in der Cursor-Klasse (welche im Main.cs dann als cursor instanziert wird) zwei Boolean hinzugefügt.
+Diese beiden Boolean merken sich, ob die linke/rechte Maustaste gedrückt ist. 
+Um diese Variabeln aktuell zu halten muss in der Updatefunktion des Cursors (in der Cursor Klasse) eine 
+überprüfung der Maus eingebaut werden, welche diese Variabeln immer aktualisiert.  
+Dazu kommen nochmals zwei Variabeln, welche sich diesen Status vom vorgehenden Update merken. 
+Jedesmal wenn diese Boolean gesetzt werden, müssen die Werte der Variabeln auf die anderen übertragen werden, erst dann
+geschrieben werden. 
+Nennen wir sie: actualLeftButtonDown, lastLeftButtonDown (dasselbe für right)
+
+Des weiteren muss in der Cursorklasse ein Vector2 hinzugefügt werden, welcher sich die letzten Koordinaten merkt und bei
+jedem Update geupdated werden soll. Dies soll auch im Cursor.Update geschehen.
+
+Des weiteren müssen beim Cursor zwei Funktion eingebaut werden.
+IsRightButtonDrag() und IsLeftButtonDrag() 
+Diese Funktionen müssen jeweils true oder false zurückgeben wenn ein Drag Event vorliegt. Up ein solches zu überprüfen 
+werden die Variabeln die wir erstellt haben berücksichtigt. 
+
+Wenn actualLeftButtonDown && lastLeftButtonDown -> wir haben Drag Event.
+
+Nun muss noch eine Funktion im Cursor erstellt werden, welche die Koordinatenverschiebun zurückgibt
+aktuelle Koordinaten vom Cursor - letzteGespeicherte Koordinaten.
+
+
+Nun ist alles vorhanden um die Map zu verschieben:
+Die Updatefunktion im Main.cs wird 60 mal pro Sekunde aufgerufen. Diese ruft alle Updatefunktionen der andern Klasse auf (aktuell nur vom Cursor).
+Am Ende dieser Funktion muss nun überprüft werden ob ein Drag Event vorliegt. 
+
+if (cursor.IsRightButtonDrag() == true)
+{
+	Ein Drag liegt vor, wie gross ist die Verschiebung?
+	Vector2 offset = cursor.getOffset(); oder so.
+	map.position.X += offset.X;
+	map.position.Y += offset.Y;
+} 
+
+Somit sollte die Karte auf Drags verschoben werden. 
+
+
+
+
+
+
+Ausführung Teil 3
+Diese Aufgabe ist zweiteilig. 
+In der Updatefunktion des Main muss überprüft werden, ob die Pfeiltaste X gedrückt wird.
+Wenn ja (if abfrage), dann muss die map.position geändert werden. Wenn nach rechts, map.position.X++, wenn oben map.position.Y-- etc.
+
+Nun soll die Map aber nicht gleichmässig verschoben werden, sondern beschleunigen und verlangsamen.
+Hier wird nun im Main.cs ein float namens speed erstellt.
+
+Bei der Abfrage, welche Pfeiltaste gefrückt wird, wird nun dem Float solange er kleiner als ein bestimmter Wert (experimentieren) ist, 
+1 dazugezählt (oder anderer Wert). die map.position wird nun nicht mit ++ eins hochgezählt. Jetzt wird der float speed dazugerechnet. 
+Wenn keine dieser Buttons gefrückt ist, wird der Speed wieder um den gleichen wert verkleinert bis er 0 ist.
